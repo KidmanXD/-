@@ -1,7 +1,7 @@
 classDiagram
     Gitare <|-- Acustick
     Gitare <|-- Electro
-    Gitare --* diss :if amount >1
+    Gitare --* diss :if amount amount>=2
     Gitare --* pokupka :if amount <=1
     Gitare : +stoimost
     Gitare : +name
